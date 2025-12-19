@@ -3,6 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import userData from "@/data/user.json";
+import codeforce from "@assets/code-forces.svg"
+import leetcode from "@assets/leetcode.svg"
 
 interface User {
     name: string;
@@ -77,7 +79,7 @@ export default function Sidebar() {
                                     title="Codeforces"
                                     style={{ color: "#1f8acb" }}
                                 >
-                                    <Image src="/code-forces.svg" alt="Codeforces" width={24} height={24} />
+                                    <Image src={codeforce} alt="Codeforces" width={24} height={24} />
                                 </a>
                             </li>
                         )}
@@ -92,10 +94,11 @@ export default function Sidebar() {
                                     title="LeetCode"
                                     style={{ color: "#ffa116" }}
                                 >
-                                    <Image src="/leetcode.svg" alt="LeetCode" width={24} height={24} />
+                                    <Image src={leetcode} alt="LeetCode" width={24} height={24} />
                                 </a>
                             </li>
                         )}
+
 
                         {/* {user.codechef && (
                             <li className="social-item">
