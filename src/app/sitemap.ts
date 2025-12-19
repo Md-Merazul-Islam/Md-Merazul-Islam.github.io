@@ -1,5 +1,8 @@
 import { MetadataRoute } from 'next';
 
+export const dynamic = 'force-static';
+
+
 export default function sitemap(): MetadataRoute.Sitemap {
     const categories = [
         '',
@@ -13,9 +16,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ];
 
     return categories.map((cat) => ({
-        url: `http://localhost:3000/${cat}`,
+        url: `https://merazul.github.io/${cat}`,
         lastModified: new Date(),
         changeFrequency: 'monthly' as const,
         priority: cat === '' || cat === 'about' ? 1 : 0.8,
     }));
+
 }

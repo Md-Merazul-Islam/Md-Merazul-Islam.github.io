@@ -1,8 +1,14 @@
+// next.config.ts
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
   reactCompiler: true,
+  output: "export", // required for GitHub Pages
+  images: {
+    unoptimized: true,
+  },
 };
+
+
 
 export default nextConfig;

@@ -9,7 +9,26 @@ import Projects from "@/components/Projects";
 import Research from "@/components/Research";
 import researchesData from "@/data/researches.json";
 
+export const dynamic = "force-static";
+
+export async function generateStaticParams() {
+    const tabs = [
+        "about",
+        "skills",
+        "education",
+        "achievements",
+        "experience",
+        "projects",
+        "research",
+    ];
+
+    return tabs.map((tab) => ({
+        tab: [tab],
+    })).concat([{ tab: [] }]); // Include root
+}
+
 export default async function Page({
+
     params,
 }: {
     params: Promise<{ tab?: string[] }>;
