@@ -1,10 +1,33 @@
 [
     {
+        "title": "B2B Lead Generation Pro",
+        "description": "Scrapes 5,000+ business leads in just 1 minute across 5–50 km radius. Collects verified emails, phone numbers, addresses, websites, ratings, and categories to streamline sales and marketing outreach.",
+        "date": "2024",
+        "github": "https://github.com/Md-Merazul-Islam/lead-Generation-scraper",
+        "image": "LeadScraper-Pro.png",
+        "stacks": [
+            "Python",
+            "FastAPI",
+            "Scrapy",
+            "BeautifulSoup",
+            "Selenium",
+            "OpenStreetMap",
+            "PostgreSQL",
+            "Redis",
+            "Celery",
+            "SQLAlchemy",
+            "Pydantic",
+            "HTML",
+            "JavaScript"
+        ]
+    },
+    {
         "title": "Hardware Management (MoleHardware)",
         "description": "Scalable international Canadian e-commerce system with multi-role and seamless content management. Integrated 3rd-party API with 230K+ products without pagination and optimized response from 5 minutes to 5 milliseconds.",
         "date": "2024",
-        "github": "https://github.com/Md-Merazul-Islam",
-        "live": "https://molehardware.com",
+        "github": "",
+        "live": "https://molehardware.vercel.app",
+        "image": "Hardware-Management.png",
         "stacks": [
             "Django REST Framework",
             "Celery",
@@ -20,7 +43,8 @@
         "title": "Meal Management System",
         "description": "Advanced meal subscription and delivery system with multi-role management. Built real-time delivery tracking and multi-role management with WebSockets and Celery scheduling.",
         "date": "2024",
-        "github": "https://github.com/Md-Merazul-Islam",
+        "github": "https://github.com/Md-Merazul-Islam/Meal-Management-System-Backend",
+        "image": "Meal-Management.png",
         "stacks": [
             "Django REST Framework",
             "PostgreSQL",
@@ -33,25 +57,11 @@
         ]
     },
     {
-        "title": "Safe Savvy Kids",
-        "description": "Canadian child-safety education platform with role-based access for students, teachers, and admins. Features module-wise video lessons with watch-time tracking and progress monitoring.",
-        "date": "2024",
-        "live": "https://safesavvykids.ca",
-        "stacks": [
-            "Django REST Framework",
-            "PostgreSQL",
-            "Next.js",
-            "Tailwind CSS",
-            "AWS S3",
-            "EC2",
-            "PM2"
-        ]
-    },
-    {
         "title": "Job Hunter – Smart Job Scraping Platform",
         "description": "Automatically scrapes and filters online job posts based on user preferences. Collects job posts from multiple sites and filters them by skills, location, job type, and platform.",
         "date": "2024",
         "github": "https://github.com/Md-Merazul-Islam",
+        "image": "Job-Hunter.png",
         "stacks": [
             "FastAPI",
             "Sqlalchemy",
@@ -66,7 +76,8 @@
         "title": "Agency Website (NARXU)",
         "description": "International agency website delivering a modern, fast, secure, and fully API-driven digital experience with a polished UI.",
         "date": "2024",
-        "github": "https://github.com/Md-Merazul-Islam",
+        "live": "https://narxu.netlify.app",
+        "image": "Narxu.png",
         "stacks": [
             "Next.js",
             "Django REST Framework"

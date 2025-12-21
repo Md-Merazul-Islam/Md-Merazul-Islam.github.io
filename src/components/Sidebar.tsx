@@ -23,6 +23,15 @@ const user = userData as User;
 
 export default function Sidebar() {
     const [isActive, setIsActive] = useState(false);
+    const [copied, setCopied] = useState(false);
+
+    const handleCopyEmail = (e: React.MouseEvent) => {
+        e.preventDefault();
+        navigator.clipboard.writeText(user.email).then(() => {
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+        });
+    };
 
     return (
         <aside className={`sidebar ${isActive ? "active" : ""}`} data-sidebar>
@@ -138,8 +147,29 @@ export default function Sidebar() {
                         </div>
                         <div className="contact-info">
                             <p className="contact-title">Email</p>
-                            <a href={`mailto:${user.email}`} className="contact-link">
+                            <a 
+                                href={`mailto:${user.email}`} 
+                                className="contact-link" 
+                                onClick={handleCopyEmail}
+                                title="Click to copy email"
+                                style={{ position: 'relative' }}
+                            >
                                 {user.email}
+                                {copied && (
+                                    <span style={{
+                                        position: 'absolute',
+                                        right: '0',
+                                        top: '-20px',
+                                        fontSize: '10px',
+                                        background: '#383838',
+                                        color: '#ffdb70',
+                                        padding: '2px 6px',
+                                        borderRadius: '4px',
+                                        boxShadow: '0 2px 4px rgba(0,0,0,0.2)'
+                                    }}>
+                                        Copied!
+                                    </span>
+                                )}
                             </a>
                         </div>
                     </li>
