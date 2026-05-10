@@ -1,28 +1,69 @@
 [
-    {
-        "company": "SM Technology",
-        "position": "Backend Developer (Python)",
-        "duration": "Feb 2025 - Present",
-        "location": "Dhaka, Rampura, Banasree",
-        "description": "Building and deploying scalable backend systems and RESTful APIs. Notable works include:",
-        "projects": [
-            "Engineered scalable backend systems using Django REST Framework and FastAPI.",
-            "Deployed projects using Docker, Nginx, AWS EC2, and CI/CD pipelines.",
-            "Integrated Redis, Celery, and WebSockets for async tasks and real-time updates.",
-            "Built and deployed 12+ scalable web & mobile apps (e-commerce, SaaS, education, courier, design).",
-            "Collaborated with UI/UX and frontend teams for seamless integration."
-        ]
-    },
-    {
-        "company": "Royalx LLC",
-        "position": "Junior Python Developer / Trainee",
-        "duration": "Sep 2024 - Dec 2024",
-        "location": "Remote",
-        "description": "Worked as a Junior Python Developer focusing on AI/ML and image pipelines. Notable works include:",
-        "projects": [
-            "Developed an AI/ML clothing change model using Hugging Face and image pipelines.",
-            "Managed large uploads with limits and subscription-based access optimization.",
-            "Applied NumPy, Pandas, and Django’s built-in AI model integrations for backend scalability."
-        ]
-    }
+  {
+    "company": "AIHCON BD",
+    "position": "Software Engineer (Full Stack)",
+    "duration": "Jan 2026 - Present",
+    "location": "Dhanmondi, Dhaka, Bangladesh",
+    "employment_type": "Full-time",
+    "description": "Working at a USA-based HIPAA-compliant medical health company, developing scalable and production-ready healthcare software solutions.",
+    "projects": [
+      "Developing scalable backend APIs using FastAPI and Python.",
+      "Building and integrating frontend applications using React.js.",
+      "Deploying cloud-native systems using AWS, Docker, Kubernetes, and CI/CD pipelines.",
+      "Working with microservices architecture for scalable healthcare platforms.",
+      "Optimizing database performance and improving system scalability.",
+      "Collaborating with senior engineers to design clean and efficient technical solutions."
+    ],
+    "skills": [
+      "FastAPI",
+      "React.js",
+      "AWS",
+      "Docker",
+      "Kubernetes",
+      "CI/CD",
+      "Microservices",
+      "Python"
+    ]
+  },
+  {
+    "company": "SM Technology",
+    "position": "Junior Back End Developer",
+    "duration": "Feb 2025 - Jan 2026",
+    "location": "Dhaka, Rampura, Banasree",
+    "employment_type": "Full-time",
+    "description": "Started career journey as a Junior Backend Developer focusing on scalable backend systems and API development.",
+    "projects": [
+      "Built RESTful APIs using Django REST Framework.",
+      "Worked with PostgreSQL database optimization and backend scalability.",
+      "Collaborated with frontend and UI teams for smooth API integration.",
+      "Learned production-level backend development workflows and deployment practices."
+    ],
+    "skills": [
+      "Django REST Framework",
+      "PostgreSQL",
+      "Python",
+      "REST API",
+      "Backend Development"
+    ]
+  },
+  {
+    "company": "Royalx LLC",
+    "position": "Junior Python Developer",
+    "duration": "Jul 2024 - Dec 2024",
+    "location": "Bangladesh",
+    "employment_type": "Part-time · Remote",
+    "description": "Worked on AI/ML image processing pipelines and scalable upload systems.",
+    "projects": [
+      "Developed an AI/ML clothing change model using Hugging Face.",
+      "Managed large file uploads with subscription-based access control.",
+      "Optimized backend performance for image processing workflows.",
+      "Worked with AI model integrations and scalable backend systems."
+    ],
+    "skills": [
+      "Python",
+      "AI/ML",
+      "Hugging Face",
+      "Backend Development"
+    ]
+  }
 ]
