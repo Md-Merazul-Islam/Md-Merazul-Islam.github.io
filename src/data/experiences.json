@@ -1,69 +1,108 @@
 [
   {
-    "company": "AIHCON BD",
+    "company": "DocPro Health",
     "position": "Software Engineer (Full Stack)",
     "duration": "Jan 2026 - Present",
     "location": "Dhanmondi, Dhaka, Bangladesh",
     "employment_type": "Full-time",
-    "description": "Working at a USA-based HIPAA-compliant medical health company, developing scalable and production-ready healthcare software solutions.",
+    "description": "Building scalable, secure, and production-ready HealthTech applications for a USA-based healthcare platform, working across backend APIs, frontend applications, AI-powered workflows, integrations, and cloud infrastructure.",
     "projects": [
-      "Developing scalable backend APIs using FastAPI and Python.",
-      "Building and integrating frontend applications using React.js.",
-      "Deploying cloud-native systems using AWS, Docker, Kubernetes, and CI/CD pipelines.",
-      "Working with microservices architecture for scalable healthcare platforms.",
-      "Optimizing database performance and improving system scalability.",
-      "Collaborating with senior engineers to design clean and efficient technical solutions."
+      "Designing and developing scalable REST APIs and healthcare workflows using Python, FastAPI, and Django.",
+      "Developing full-stack features using React.js, Next.js, TypeScript, and Tailwind CSS.",
+      "Building and integrating healthcare APIs for clinical workflows, patient management, pre-visit, charting, billing, insurance, and other EMR-related systems.",
+      "Developing AI-powered healthcare features and integrating OpenAI-based workflows into clinical applications.",
+      "Implementing background processing and asynchronous workflows using Redis and Celery.",
+      "Designing secure API access using authentication, authorization, role-based permissions, and access-control mechanisms.",
+      "Working with PostgreSQL and MySQL databases, including schema design, query optimization, caching, and performance improvements.",
+      "Developing real-time functionality using WebSockets and event-driven workflows where required.",
+      "Integrating third-party healthcare services and external APIs into production systems.",
+      "Building webhook-based integrations and automated workflows for external healthcare systems.",
+      "Deploying and maintaining production applications using Docker, AWS, Nginx, Kubernetes, and CI/CD pipelines.",
+      "Implementing caching and performance optimization strategies to improve API response times and application reliability.",
+      "Working with microservice-oriented architectures and designing reusable, maintainable backend services.",
+      "Developing API documentation and testing workflows using Swagger/OpenAPI and Postman.",
+      "Collaborating with product, frontend, and engineering teams to translate complex healthcare requirements into reliable technical solutions."
     ],
     "skills": [
+      "Python",
       "FastAPI",
+      "Django",
+      "Django REST Framework",
       "React.js",
-      "AWS",
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "MySQL",
+      "Redis",
+      "Celery",
+      "WebSockets",
+      "REST APIs",
+      "OpenAI",
+      "AI Integration",
       "Docker",
+      "AWS",
       "Kubernetes",
+      "Nginx",
       "CI/CD",
+      "GitHub Actions",
       "Microservices",
-      "Python"
+      "API Integration",
+      "Webhooks",
+      "Authentication & Authorization",
+      "System Design"
     ]
   },
   {
     "company": "SM Technology",
-    "position": "Junior Back End Developer",
+    "position": "Junior Backend Developer",
     "duration": "Feb 2025 - Jan 2026",
-    "location": "Dhaka, Rampura, Banasree",
+    "location": "Rampura, Dhaka, Bangladesh",
     "employment_type": "Full-time",
-    "description": "Started career journey as a Junior Backend Developer focusing on scalable backend systems and API development.",
+    "description": "Developed and maintained backend services and REST APIs using Python and Django, with a focus on database performance, API architecture, and production-ready backend systems.",
     "projects": [
-      "Built RESTful APIs using Django REST Framework.",
-      "Worked with PostgreSQL database optimization and backend scalability.",
-      "Collaborated with frontend and UI teams for smooth API integration.",
-      "Learned production-level backend development workflows and deployment practices."
+      "Developed RESTful APIs using Python and Django REST Framework.",
+      "Designed database models and optimized PostgreSQL queries for better application performance.",
+      "Implemented authentication, authorization, validation, permissions, and business logic.",
+      "Integrated backend APIs with frontend applications and third-party services.",
+      "Worked on API debugging, performance optimization, and production issue resolution.",
+      "Developed reusable backend components following clean architecture and maintainable coding practices.",
+      "Collaborated with frontend developers to design and integrate reliable API contracts."
     ],
     "skills": [
+      "Python",
+      "Django",
       "Django REST Framework",
       "PostgreSQL",
-      "Python",
-      "REST API",
-      "Backend Development"
+      "REST APIs",
+      "Backend Development",
+      "API Design",
+      "Database Optimization",
+      "Authentication",
+      "Git"
     ]
   },
   {
     "company": "Royalx LLC",
     "position": "Junior Python Developer",
     "duration": "Jul 2024 - Dec 2024",
-    "location": "Bangladesh",
-    "employment_type": "Part-time · Remote",
-    "description": "Worked on AI/ML image processing pipelines and scalable upload systems.",
+    "location": "Remote",
+    "employment_type": "Part-time",
+    "description": "Worked on Python-based backend systems, AI/ML integrations, and image-processing workflows for a remote product development team.",
     "projects": [
-      "Developed an AI/ML clothing change model using Hugging Face.",
-      "Managed large file uploads with subscription-based access control.",
-      "Optimized backend performance for image processing workflows.",
-      "Worked with AI model integrations and scalable backend systems."
+      "Developed Python-based backend functionality for AI-powered image-processing workflows.",
+      "Integrated AI/ML models and Hugging Face technologies into application workflows.",
+      "Implemented large-file upload and processing workflows with subscription-based access control.",
+      "Optimized backend processes for handling image-processing workloads efficiently.",
+      "Worked on API development, debugging, testing, and integration of AI-powered features."
     ],
     "skills": [
       "Python",
       "AI/ML",
       "Hugging Face",
-      "Backend Development"
+      "Backend Development",
+      "API Development",
+      "Image Processing",
+      "REST APIs"
     ]
   }
 ]
